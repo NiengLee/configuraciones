@@ -2,7 +2,6 @@
 Opciones de resumenes rapidios de comandos en git
 - [Git official website](https://git-scm.com/cheat-sheet)
 - [GitHub education](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Gitea](https://about.gitea.com/)
 
 # Git Roadmap
 Ruta de aprendizaje para implementación de Git/GitHub
