@@ -1,6 +1,6 @@
 # 1. En la pagina oficial se descarga un archivo : Obsidian-1.11.4.AppImage
 # se crea una carpeta llamada .apps/obsidian para guardar alli la imagen de Obsidian, y luego se dan los permisos de acceso sobre esta carpeta
-```
+```bash
 mkdir -p "$HOME/.apps/Obsidian" && \
 mv "$HOME/Descargas"/Obsidian-1.11.4.AppImage "$HOME/Applications/Obsidian/Obsidian.AppImage" && \
 chmod +x "$HOME/.apps/Obsidian/Obsidian.AppImage"
@@ -9,18 +9,18 @@ chmod +x "$HOME/.apps/Obsidian/Obsidian.AppImage"
 ---
 
 # 2. Verificar ejecución:
-```
+```bash
 "$HOME/Applications/Obsidian/Obsidian.AppImage"
 ```
-# -- si no funciona, ejecutar
-```
+si no funciona, ejecutar
+```bash
 "$HOME/Applications/Obsidian/Obsidian.AppImage" --no-sandbox
 ```
 
 ---
 
 # 3. Se busca un icono representativo de Obsidian:
-```
+```bash
 APP="$HOME/Applications/Obsidian/Obsidian.AppImage" && \
 TMP="$(mktemp -d)" && \
 cd "$TMP" && \
@@ -35,7 +35,7 @@ rm -rf "$TMP"
 ---
 
 # 4. Creador del lanzador de obsidian
-```
+```bash
 mkdir -p "$HOME/.local/share/applications" && \
 cat > "$HOME/.local/share/applications/obsidian.desktop" <<EOF
 [Desktop Entry]
@@ -51,14 +51,14 @@ EOF
 ```
 
 # 5. Actualizar cache:
-```
+```bash
 update-desktop-database "$HOME/.local/share/applications" >/dev/null 2>&1 || true
 ```
 
 ---
 
 # 6. Crear acceso directo en escritorio (si se requiere):
-```
+```bash
 DESK="$(xdg-user-dir DESKTOP)" && \
 cp "$HOME/.local/share/applications/obsidian.desktop" "$DESK/Obsidian.desktop" && \
 chmod +x "$DESK/Obsidian.desktop" && \
