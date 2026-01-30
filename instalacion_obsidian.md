@@ -1,5 +1,5 @@
 # 1. En la pagina oficial se descarga un archivo : Obsidian-1.11.4.AppImage
-# se crea una carpeta llamada .apps/obsidian para guardar alli la imagen de Obsidian, y luego se dan los permisos de acceso sobre esta carpeta
+se crea una carpeta llamada .apps/obsidian para guardar alli la imagen de Obsidian, y luego se dan los permisos de acceso sobre esta carpeta
 ```bash
 mkdir -p "$HOME/.apps/Obsidian" && \
 mv "$HOME/Descargas"/Obsidian-1.11.4.AppImage "$HOME/Applications/Obsidian/Obsidian.AppImage" && \
@@ -49,6 +49,8 @@ Categories=Office;Utility;TextEditor;
 StartupWMClass=obsidian
 EOF
 ```
+
+---
 
 # 5. Actualizar cache:
 ```bash
