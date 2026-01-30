@@ -1,4 +1,17 @@
+# Git CheatSheets
+Opciones de resumenes rapidios de comandos en git
+- [Git official website](https://git-scm.com/cheat-sheet)
+- [GitHub education](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Gitea](https://about.gitea.com/)
+
+# Git Roadmap
+Ruta de aprendizaje para implementación de Git/GitHub
+- [GitHub roadmap](https://roadmap.sh/git-github)
+
 # Vinculación local con cuenta en repositorio remoto
+Ademas de [GitHub](), esto puede aplicar repositorios como:
+- [GitLab](https://about.gitlab.com/)
+- [Codeberg](https://codeberg.org/)
 
 ```bash
 ssh-keygen -t ed25519 -C "tu_email" -f ~/.ssh/id_ed25519
@@ -8,7 +21,7 @@ git clone git@github.com:NiengLee/configuraciones.git
 ```
 
 # Creación de archivos que no estaran en el control de versiones
-Esto se usa mucho para variables de entorno para proteger información sensible
+Este archivo se usa mucho para variables de entorno para proteger información sensible o que no se desea realizar control de versiones
 
 ```bash
 touch .gitignore
