@@ -1,3 +1,8 @@
+# CLI linux cheatsheet
+Opciones de resumenes rapidos de comandos en terminal de Linux
+- [Linux Commands Cheat Sheet](https://www.geeksforgeeks.org/linux-unix/linux-commands-cheat-sheet/)
+- [Linux Commands Cheat Sheet](https://linux-commands.labex.io/)
+
 # Comandos generales
 
 

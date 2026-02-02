@@ -1,5 +1,5 @@
 # Git CheatSheets
-Opciones de resumenes rapidios de comandos en git
+Opciones de resumenes rapidos de comandos en git
 - [Git official website](https://git-scm.com/cheat-sheet)
 - [GitHub education](https://education.github.com/git-cheat-sheet-education.pdf)
 
