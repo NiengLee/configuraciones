@@ -1,3 +1,5 @@
+# Instalación de Obsidian
+
 # 1. En la pagina oficial se descarga un archivo : Obsidian-1.11.4.AppImage
 se crea una carpeta llamada .apps/obsidian para guardar alli la imagen de Obsidian, y luego se dan los permisos de acceso sobre esta carpeta
 ```bash

@@ -1,3 +1,5 @@
+# Instalacion de paquetes en OS Linux
+
 Existen 4 maneras de instalar paquetes en ubuntu linux :
 
 1. Directamente descargando de internet y seguir sus manuales.

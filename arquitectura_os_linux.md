@@ -1,4 +1,8 @@
-Referencia: [ByteByteCode](https://blog.bytebytego.com/p/ep63-linux-file-system-explained)
+# Arquitectura Linux
+
+Referencia: 
+- [ByteByteCode](https://blog.bytebytego.com/p/ep63-linux-file-system-explained)
+- [Linux roadmap](https://roadmap.sh/linux)
 
 
 | carpeta                           | descripcion                                                                                                                                     | Modificable |
