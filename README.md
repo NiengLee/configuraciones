@@ -8,3 +8,4 @@ Los manuales o comandos que hay en este repositorio aplica para el sistema opera
 - ### Comandos básicos de Git/Github.
 - ### Instalación de Obsidian.
 - ### Instalaciones en Linux.
+- ### Instalacion de Visual Studio Code.
