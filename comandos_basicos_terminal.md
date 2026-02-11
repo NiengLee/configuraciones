@@ -8,14 +8,15 @@ Opciones de resumenes rapidos de comandos en terminal de Linux
 
 | Comando                   | Acción                                                                 | flags comunes                  |
 | ------------------------- | ---------------------------------------------------------------------- | ------------------------------ |
-| lsb-release               | Muestra información de la distribución Linux (nombre, versión, etc.).  | -a                             |
+| lsb_release               | Muestra información de la distribución Linux (nombre, versión, etc.).  | -a                             |
 | whoami                    | Imprime el usuario efectivo actual.                                    |                                |
+| clear                     | Limpia la pantalla (tambien con ctrl+L)                                |                                |
 | pwd                       | Imprime la ruta absoluta del directorio actual.                        |                                |
 | sudo                      | Ejecuta un comando con privilegios de superusuario (root).             | -u<br>-k                       |
 | ls                        | Lista archivos y directorios.                                          | -l<br>-a<br>-h                 |
 | cd                        | Cambia el directorio de trabajo actual.                                |                                |
 | touch                     | Crea archivo vacío o actualiza timestamps (atime/mtime).               | -a<br>-m                       |
-| nano                      | Editor de texto en terminal.                                           | +<línea>                       |
+| nano                      | Editor de texto en terminal.( ctrl+o para guardar, ctrl+x)             |                                |
 | cat                       | Muestra/concatena shown contenido de archivos a stdout.                | -n                             |
 | grep                      | Busca patrones (regex/texto) en líneas de archivos o stdin.            | -n<br>-i<br>-r                 |
 | find                      | Busca archivos/directorios por nombre/atributos dentro de una ruta.    | -name<br>-type<br>-maxdepth    |
@@ -34,7 +35,16 @@ Opciones de resumenes rapidos de comandos en terminal de Linux
 | wget                      | Descarga archivos desde una URL.                                       | -O <br>-c                      |
 | curl                      | Transfiere datos desde/hacia una URL (HTTP, etc.).                     | -L<br>-o<br>-I                 |
 | dpkg                      | Administra paquetes .deb (instalar, listar, consultar).                | -i<br>-l<br>-s                 |
-| stdin<br>stdout<br>stderr |                                                                        |                                |
+
+
+### stdin (standard input)
+Flujo de entrada estándar. Es el canal por el cual un programa recibe datos. Por defecto, proviene del teclado, pero puede redirigirse desde un archivo o desde la salida de otro comando mediante tuberías.
+
+### stdout (standard output)
+Flujo de salida estándar. Es el canal donde un programa envía su salida normal o resultados. Por defecto, se muestra en la terminal, pero puede redirigirse a un archivo o a otro proceso.
+
+### stderr (standard error)
+Flujo de error estándar. Es el canal donde un programa envía mensajes de error o diagnóstico. Es independiente de stdout, lo que permite redirigir errores y salida normal por separado.
 
 # Ejecucion script.sh
 
